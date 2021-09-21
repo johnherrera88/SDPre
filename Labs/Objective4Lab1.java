@@ -13,22 +13,22 @@ public class Objective4Lab1 {
 
     //TODO prompt the user to get input for all of the String variables.
     System.out.println("What is your first name?");
-    String fname = keyboard.nextLine();
+    fname = keyboard.nextLine();
 
     System.out.println("What is your last name?");
-    String lname = keyboard.nextLine();
+    lname = keyboard.nextLine();
 
     System.out.println("What is your favorite animal?");
-    String favoriteAnimal = keyboard.nextLine();
+    favoriteAnimal = keyboard.nextLine();
 
     System.out.println("What is your favorite food?");
-    String favoriteFood = keyboard.nextLine();
+    favoriteFood = keyboard.nextLine();
 
     System.out.println("What is your favorite song?");
-    String favoriteSong = keyboard.nextLine();
+    favoriteSong = keyboard.nextLine();
 
     //TODO print the output formatted to look like the expected output using String concatenation.
-    System.out.println(("My name is " + fname + lname + ".") + ("My favorite animal is " + favoriteAnimal + ".") + ("My favorite food is " + favoriteFood + ".") + ("My favorite song is " + favoriteSong + "."));
+    System.out.println(("My name is " + fname + lname + ". ") + ("My favorite animal is " + favoriteAnimal + ". ") + ("My favorite food is a " + favoriteFood + ". ") + ("My favorite song is " + favoriteSong + "."));
 
   }
 }
