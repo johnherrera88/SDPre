@@ -12,10 +12,9 @@ public class Objective9Lab3 {
       System.out.println("2 \nApples, Bananas, Coconuts");
       printMenu();
       System.out.println("3 \nGoodbye");
+      selection = scanner.nextInt();
 
     }
-
-    Scanner.close();
 
   }
 
